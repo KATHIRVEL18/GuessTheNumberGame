@@ -6,7 +6,7 @@ function Result({ secretNum, term }) {
   else if (term < secretNum) result = "Lower";
   else if (term == secretNum) {
     result = "Yipee! Correct.";
-    alert("Congratulation.");
+    alert("Congratulation. You won the game.");
   } else result = "Enter a valid number.";
   return (
     <>
