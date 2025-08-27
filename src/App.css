@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: rgb(113, 110, 110);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 10px;
+  width: 500px;
+  border: 2px solid whitesmoke;
+  color: white;
+  border-radius: 16px;
+}
+
+.head {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.term {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.term:hover {
+  background-color: rgb(215, 213, 213);
+}
+
+.term:focus {
+  background-color: rgb(228, 228, 211);
+}
